@@ -1,6 +1,6 @@
 {
-    "name": "convert_image",
-    "short_name": "convert_image",
+    "name": "github_flutter_ui",
+    "short_name": "github_flutter_ui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
