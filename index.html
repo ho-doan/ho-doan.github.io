@@ -54,6 +54,12 @@
     pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
   </script>
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Redirect root to home
+    if (window.location.pathname === '/' && !window.location.hash) {
+      window.location.href = '/#/home';
+    }
+  </script>
 </body>
 
 </html>
